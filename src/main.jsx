@@ -5,6 +5,9 @@ import App from './App.jsx'
 import { createHashRouter, RouterProvider } from 'react-router'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
+import Projects from './components/Projects.jsx'
+import Degree from './components/Degree.jsx'
+import Contact from './components/Contact.jsx'
 
 const router = createHashRouter (
   [
@@ -20,6 +23,18 @@ const router = createHashRouter (
       {
       path: '/About',
       Component: About
+      },
+      {
+      path: '/Projects',
+      Component: Projects
+      },
+      {
+      path: '/Degree',
+      Component: Degree
+      },
+      {
+      path: '/Contact',
+      Component: Contact
       }
     ]
   }

@@ -1,4 +1,4 @@
-import { Links } from 'react-router'
+import { Link } from 'react-router'
 
 const Degree = () => (
     <div className='degree'>
@@ -6,3 +6,4 @@ const Degree = () => (
         <Link to="/Degree"></Link>
     </div>
 )
+export default Degree;

@@ -6,3 +6,4 @@ const Contact = () => (
         <Link to="/Contact"></Link>   
     </div>
 )
+export default Contact;

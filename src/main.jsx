@@ -9,6 +9,7 @@ import Projects from './components/Projects.jsx'
 import Degree from './components/Degree.jsx'
 import Contact from './components/Contact.jsx'
 
+
 const router = createHashRouter (
   [
     {

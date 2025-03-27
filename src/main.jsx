@@ -2,11 +2,11 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Home from '.components/Home.jsx'
-import { HashRouter } from 'react-router'
-import About from '/components/About.jsx'
+import { createHashRouter, RouterProvider } from 'react-router'
+import Home from './components/Home.jsx'
+import About from './components/About.jsx'
 
-const router = HashRouter (
+const router = createHashRouter (
   [
     {
     path: "/",
@@ -18,8 +18,8 @@ const router = HashRouter (
       Component: Home
       },
       {
-        path: '/about',
-        Component: About
+      path: '/About',
+      Component: About
       }
     ]
   }
@@ -27,7 +27,7 @@ const router = HashRouter (
 )
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>,
+	<StrictMode>
+		<RouterProvider router={router} />
+	</StrictMode>,
 )

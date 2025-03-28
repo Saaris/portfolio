@@ -5,7 +5,7 @@ header{
 }
 .App {
   min-height: 100vh;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif         
 }
 a{ 
   padding: 0.2em;
@@ -23,4 +23,8 @@ h2{
   margin: 0.2em;
   padding: 0.3em;
   text-align: center;
+}
+img {
+  width: 50;
+  height: 50%;
 }

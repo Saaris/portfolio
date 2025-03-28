@@ -10,6 +10,7 @@ import Degree from './components/Degree.jsx'
 import Contact from './components/Contact.jsx'
 
 
+
 const router = createHashRouter (
   [
     {
@@ -22,7 +23,11 @@ const router = createHashRouter (
       Component: Home
       },
       {
-      path: '/About',
+      path: '/home/:id',
+      Component: Home
+      },
+      {
+      path: '/About/:id',
       Component: About
       },
       {

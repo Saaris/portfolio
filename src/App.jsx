@@ -14,7 +14,7 @@ function App() {
         <h1>Portfolio</h1>
         <nav>
           <NavLink to="/">Hem</NavLink>
-          <NavLink to="/About">Om mig</NavLink>
+          <NavLink to="/About/1">Om mig</NavLink>
           <NavLink to="/Projekt">Projekt</NavLink>
           <NavLink to="/Degree">Utbildning</NavLink>
           <NavLink to="/Contact">Kontakt</NavLink>

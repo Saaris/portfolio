@@ -14,10 +14,10 @@ function App() {
         <h1>Portfolio</h1>
         <nav>
           <NavLink to="/">Hem</NavLink>
-          <NavLink to="/About/1">Om mig</NavLink>
-          <NavLink to="/Projekt">Projekt</NavLink>
-          <NavLink to="/Degree">Utbildning</NavLink>
-          <NavLink to="/Contact">Kontakt</NavLink>
+          <NavLink to="/about/1">Om mig</NavLink>
+          <NavLink to="/projects">Projekt</NavLink>
+          <NavLink to="/degree/">Utbildning</NavLink>
+          <NavLink to="/contact">Kontakt</NavLink>
         </nav>
       </header>
      <main><Outlet /></main>

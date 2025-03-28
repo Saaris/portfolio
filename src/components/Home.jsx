@@ -4,15 +4,20 @@ import {info} from '../info/information.js'
 
 const Home = () => {
 
-    const {id} = useParams()
-    const image = info.find(i => (i.id) === Number(id))
-    console.log('id:', id);
+    // let {id} = useParams()
+    // const image = info.find(i => (i.id) === id)
+    // console.log('id:', id);
     
+    // const shortInfo =  info.find(i => (i.id) === id)
+
 
     return (
         <div className="home">
           <h2>Mitt Portfolio</h2>
-          {image ? image.url : 'info sknas'}
+          <img className='picture' alt='profilbild' src='../info/saraBild.jpg'></img>
+   
+          {/* <p>{shortInfo}</p> */}
+          {/* {image ? image : 'info saknas'} */}
         </div>
       );
 }

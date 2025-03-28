@@ -1,8 +1,14 @@
-import { Link } from "react-router";
+import { Link,NavLink } from "react-router";
 
-const Projects = () => (
+const Projects = () => {
+
+    return (
     <div className='project'>
-        <Link to="'/Projects"></Link>
+        <h3>Länkar till mina projekt:</h3>
+        <ul>
+            <NavLink> https://github.com/Saaris/</NavLink>
+        </ul>
     </div>
 )
+}
 export default Projects

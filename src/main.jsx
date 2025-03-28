@@ -27,19 +27,19 @@ const router = createHashRouter (
       Component: Home
       },
       {
-      path: '/About/:id',
+      path: '/about/:id',
       Component: About
       },
       {
-      path: '/Projects',
+      path: '/projects',
       Component: Projects
       },
       {
-      path: '/Degree',
+      path: '/degree',
       Component: Degree
       },
       {
-      path: '/Contact',
+      path: '/contact',
       Component: Contact
       }
     ]

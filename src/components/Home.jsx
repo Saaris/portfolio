@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router";
 import {info} from '../info/information.js'
-
+import saraBild from '../info/saraBild.jpg'
 
 const Home = () => {
 
@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div className="home">
           <h2>Mitt Portfolio</h2>
-          <img className='picture' alt='profilbild' src='../info/saraBild.jpg'></img>
+          <img className='picture' alt='profilbild' src={saraBild}></img>
    
           {/* <p>{shortInfo}</p> */}
           {/* {image ? image : 'info saknas'} */}
